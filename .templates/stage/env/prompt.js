@@ -11,5 +11,11 @@ module.exports = [
     name: 'regions',
     message: 'regions',
     choices: lib.regions.aws.all()
+  },
+  {
+    type: "multiselect",
+    name: 'stacks',
+    message: 'stacks',
+    choices: lib.stacks.all()
   }
 ]

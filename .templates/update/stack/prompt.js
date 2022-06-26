@@ -4,19 +4,18 @@ module.exports = [
   {
     type: "select",
     name: 'stack',
-    message: "What stack ?",
+    message: 'stack',
     choices: lib.stacks.all()
   },
   {
-    type: 'select',
+    type: 'input',
     name: 'env',
-    message: "What environment ?",
-    choices: lib.environments.all()
+    message: "What environment?"
   },
   {
-    type: "multiselect",
-    name: 'regions',
-    message: "What regions ?",
+    type: "select",
+    name: 'region',
+    message: 'region',
     choices: lib.regions.aws.all()
   }
 ]
