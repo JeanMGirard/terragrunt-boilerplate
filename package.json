@@ -1,0 +1,9 @@
+{
+  "name": "terragrunt-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:JeanMGirard/terragrunt-boilerplate.git",
+  "author": "Jean-Michel Girard <Jean.M.Girard@Outlook.com>",
+  "license": "MIT",
+  "devDependencies": { }
+}
