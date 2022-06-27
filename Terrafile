@@ -1,0 +1,9 @@
+
+tf-aws-vpc:
+   source:  "git@github.com:terraform-aws-modules/terraform-aws-vpc"
+   version: "v1.46.0"
+   subfolder: "examples/test_fixture"
+   export_to: "app/modules2"
+# tf-aws-vpc-experimental:
+#    source:  "git@github.com:terraform-aws-modules/terraform-aws-vpc"
+#    version: "master"
