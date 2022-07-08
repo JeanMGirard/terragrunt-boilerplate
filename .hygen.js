@@ -1,4 +1,5 @@
 const path = require("path")
+const libs = require(".templates/index")
 
 const dir_staging = () =>  path.join(__dirname, "staging")
 const dir_env = (args={})=> path.join(dir_staging(), args.env)

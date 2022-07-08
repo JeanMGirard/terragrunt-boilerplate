@@ -130,14 +130,24 @@ if ! command -v ytt  &> /dev/null; then
 fi
 echo " 'ytt' Installed "
 # ===================================================================
-if ! command -v jsonnet  &> /dev/null; then sudo `getInstallCmd` jsonnet;fi
+if ! command -v jsonnet  &> /dev/null; then sudo `getInstallCmd` jsonnet; fi
 echo " 'jsonnet' Installed "
 
-if ! command -v pre-commit  &> /dev/null; then sudo -H pip3 install pre-commit --upgrade;fi
+if ! command -v pre-commit  &> /dev/null; then sudo -H pip3 install pre-commit --upgrade; fi
 echo " 'pre-commit' Installed "
 
 if ! command -v hygen  &> /dev/null; then npm i --location=global hygen; fi
 echo " 'hygen' Installed "
+
+
+if ! command -v codemod  &> /dev/null; then sudo -H pip install codemod --upgrade; fi;
+echo " 'codemod' Installed ";
+#if ! command -v @codemod/cli  &> /dev/null; then npm install -g @codemod/cli; fi
+#echo " 'codemod' Installed "
+#if ! command -v codemod-cli  &> /dev/null; then npm install --global codemod-cli; fi
+#echo " 'codemod-cli' Installed "
+
+
 
 # ===================================================================
 # ===================================================================
