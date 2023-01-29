@@ -5,5 +5,7 @@
   "repository": "git@github.com:JeanMGirard/terragrunt-boilerplate.git",
   "author": "Jean-Michel Girard <Jean.M.Girard@Outlook.com>",
   "license": "MIT",
-  "devDependencies": { }
+  "devDependencies": {
+    "hygen": "^6.2.11"
+  }
 }
